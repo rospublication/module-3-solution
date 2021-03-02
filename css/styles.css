@@ -1,0 +1,113 @@
+body{
+    font-size:16px;
+    color:black;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin:0;
+}
+
+#header-nav{
+    background-color: #cfdac8;
+    border-radius: 0;
+    border: 2px solid black;
+    margin-bottom:0;
+}
+
+#sec1{
+    background-color: #cfdac8;
+    padding:20px;
+    margin:5px;
+}
+
+#sec2{
+    background-color: #cfdac8;
+    border-radius: 0;
+    padding:20px;
+    margin:5px;
+}
+
+#sec3{
+    background-color: #cfdac8;
+    border-radius: 0;
+    padding:20px;
+    margin:5px;
+}
+
+#heading1{
+    font-size:2em;
+    font-weight: bold;
+}
+
+#chick{
+    font-size:1.3em;
+    font-weight:bold;
+    margin-top:0;
+}
+#collapsable-nav{
+    margin-top:0;
+}
+
+ul li a{
+    color:black;
+}
+
+ul li{
+    border:2px solid black;
+}
+
+#two{
+    border-top:0;
+    border-bottom:0;
+}
+
+#brand1{
+      color:black;
+    font-weight:bold;
+    font-size:2em;
+}
+
+#nav-list{
+    margin:0;
+    width:100%;
+    font-size:1.3em;
+   }
+
+#collapsable-nav{
+    padding:0;
+    margin:0;
+}
+
+header{
+    margin-bottom:0;
+}
+  
+.navbar-header button-toggle, .navbar-header .icon-bar{
+    border:1px solid white;
+    background-color: #cfdac8;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  #sec1, #sec2, #sec3 {
+    width: 98%;
+    margin:20px auto 10px;
+  }
+    }
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #sec1, #sec2, #sec3 {
+    width:93%;
+    margin:20px auto 10px;
+  }
+    #sec3{
+        width:93%;
+        margin:20px auto 10px;
+    }
+    
+    }
+    
+    @media (max-width: 767px) {
+  #sec1, #sec2, #sec3 {
+    width:80%;
+       margin:20px auto 10px;
+    }
+    }
